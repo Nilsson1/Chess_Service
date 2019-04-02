@@ -1,0 +1,11 @@
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\bin\HelloServiceIISHost.dll.config
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\bin\HelloServiceIISHost.dll
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\bin\HelloServiceIISHost.pdb
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\bin\HelloService.dll
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\bin\HelloService.pdb
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\bin\HelloService.dll.config
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\obj\Debug\HelloServiceIISHost.csprojAssemblyReference.cache
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\obj\Debug\HelloServiceIISHost.csproj.CoreCompileInputs.cache
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\obj\Debug\HelloServiceIISHost.csproj.CopyComplete
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\obj\Debug\HelloServiceIISHost.dll
+C:\Users\frede\source\repos\HelloService\HelloServiceIISHost\obj\Debug\HelloServiceIISHost.pdb

@@ -8,7 +8,8 @@ using System.Threading;
 
 namespace HelloService
 {
-    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single)]
+
+    [ServiceBehavior(InstanceContextMode = InstanceContextMode.Single, AddressFilterMode = AddressFilterMode.Any)]
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "HelloService" in both code and config file together.
     public class HelloService : IHelloService
     {
