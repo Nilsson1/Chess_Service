@@ -9,3 +9,14 @@ C:\Users\frede\source\repos\HelloService\HelloServiceHost\obj\Debug\HelloService
 C:\Users\frede\source\repos\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CopyComplete
 C:\Users\frede\source\repos\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.exe
 C:\Users\frede\source\repos\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.pdb
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\bin\Debug\HelloServiceHost.exe.config
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\bin\Debug\HelloServiceHost.exe
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\bin\Debug\HelloServiceHost.pdb
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\bin\Debug\HelloService.dll
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\bin\Debug\HelloService.pdb
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\bin\Debug\HelloService.dll.config
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\obj\Debug\HelloServiceHost.csprojAssemblyReference.cache
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CoreCompileInputs.cache
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\obj\Debug\HelloServiceHost.csproj.CopyComplete
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\obj\Debug\HelloServiceHost.exe
+C:\Users\frede\source\repos\Hello_Service\HelloServiceHost\obj\Debug\HelloServiceHost.pdb

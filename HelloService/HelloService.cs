@@ -15,6 +15,25 @@ namespace HelloService
     {
         private List<Client> _clients = new List<Client>();
 
+        public List<Client> GetClients()
+        {
+            int clientCount = 0;
+            foreach(Client c in _clients)
+            {
+                clientCount++;
+            }
+            System.Console.WriteLine(clientCount);
+            return _clients;
+        }
+
+        int number;
+        public int IncrementNumber()
+        {
+            System.Console.WriteLine("Session ID: " + OperationContext.Current.SessionId);
+            number++;
+            return number;
+        }
+
         public void BroadCast(Guid clientId, string message)
         {
             ThreadPool.QueueUserWorkItem

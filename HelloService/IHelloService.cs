@@ -13,7 +13,9 @@ namespace HelloService
 
         [OperationContract(IsOneWay =true)]
         void GetMessage();
-        
+
+        [OperationContract]
+        int IncrementNumber();
 
         [OperationContract]
         Guid Subscribe();

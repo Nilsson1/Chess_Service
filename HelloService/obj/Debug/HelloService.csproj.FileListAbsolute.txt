@@ -5,3 +5,10 @@ C:\Users\frede\source\repos\HelloService\HelloService\obj\Debug\HelloService.csp
 C:\Users\frede\source\repos\HelloService\HelloService\obj\Debug\HelloService.dll
 C:\Users\frede\source\repos\HelloService\HelloService\obj\Debug\HelloService.pdb
 C:\Users\frede\source\repos\HelloService\HelloService\obj\Debug\HelloService.csprojAssemblyReference.cache
+C:\Users\frede\source\repos\Hello_Service\HelloService\bin\Debug\HelloService.dll.config
+C:\Users\frede\source\repos\Hello_Service\HelloService\bin\Debug\HelloService.dll
+C:\Users\frede\source\repos\Hello_Service\HelloService\bin\Debug\HelloService.pdb
+C:\Users\frede\source\repos\Hello_Service\HelloService\obj\Debug\HelloService.csprojAssemblyReference.cache
+C:\Users\frede\source\repos\Hello_Service\HelloService\obj\Debug\HelloService.csproj.CoreCompileInputs.cache
+C:\Users\frede\source\repos\Hello_Service\HelloService\obj\Debug\HelloService.dll
+C:\Users\frede\source\repos\Hello_Service\HelloService\obj\Debug\HelloService.pdb
