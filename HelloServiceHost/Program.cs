@@ -10,6 +10,7 @@ namespace HelloServiceHost
     {
         static void Main(string[] args)
         {
+            
             using (System.ServiceModel.ServiceHost host = new
                 System.ServiceModel.ServiceHost(typeof(HelloService.HelloService)))
             {

@@ -14,6 +14,9 @@ namespace HelloService
         int IncrementNumber();
 
         [OperationContract]
+        int DecrementNumber();
+
+        [OperationContract]
         Guid GetClientID(int i);
 
         [OperationContract]

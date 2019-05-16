@@ -15,6 +15,23 @@ namespace HelloService
     {
         private List<Client> _clients = new List<Client>();
 
+        private void LogOut(IContextChannel channel)
+        {
+            System.Console.WriteLine("Connection closed!");
+            string sessionID = null;
+            _clients.RemoveAt(number);
+            if (channel != null)
+            {
+                sessionID = channel.SessionId;
+            }
+        }
+
+        private void Channel_Faulted(object sender, EventArgs e)
+        {
+            number--;
+            LogOut((IContextChannel)sender);
+        }
+
         public Guid GetClientID(int i)
         {
             return _clients[i].ClientId;
@@ -25,6 +42,12 @@ namespace HelloService
         {
             System.Console.WriteLine("Session ID: " + OperationContext.Current.SessionId);
             number++;
+            return number;
+        }
+
+        public int DecrementNumber()
+        {
+            number--;
             return number;
         }
 
@@ -67,6 +90,9 @@ namespace HelloService
 
         public Guid Subscribe()
         {
+            OperationContext.Current.Channel.Faulted += new EventHandler(Channel_Faulted);
+            //OperationContext.Current.Channel.Closed += new EventHandler(Channel_Faulted);
+
             var callback = OperationContext.Current.GetCallbackChannel<IHelloServiceCallback>();
             var clientId = Guid.NewGuid();
 
