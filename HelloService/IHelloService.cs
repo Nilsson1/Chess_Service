@@ -10,12 +10,11 @@ namespace HelloService
     [ServiceContract(CallbackContract = typeof(IHelloServiceCallback))]
     public interface IHelloService
     {
-
-        [OperationContract(IsOneWay =true)]
-        void GetMessage();
-
         [OperationContract]
         int IncrementNumber();
+
+        [OperationContract]
+        Guid GetClientID(int i);
 
         [OperationContract]
         Guid Subscribe();
@@ -33,6 +32,5 @@ namespace HelloService
 
         [OperationContract(IsOneWay = true)]
         void HandleMessage(string message);
-
     }
 }

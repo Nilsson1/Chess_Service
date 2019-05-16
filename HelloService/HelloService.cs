@@ -15,15 +15,9 @@ namespace HelloService
     {
         private List<Client> _clients = new List<Client>();
 
-        public List<Client> GetClients()
+        public Guid GetClientID(int i)
         {
-            int clientCount = 0;
-            foreach(Client c in _clients)
-            {
-                clientCount++;
-            }
-            System.Console.WriteLine(clientCount);
-            return _clients;
+            return _clients[i].ClientId;
         }
 
         int number;
@@ -86,20 +80,7 @@ namespace HelloService
                     Callback = callback,
                 });
             }
-
             return clientId;
-        }
-
-        public void GetMessage()
-        {
-            for (int i = 1; i <= 100; i++)
-            {
-                // some logic to process the report
-                Thread.Sleep(100);
-                // Get the callback channel to send messages to the client
-                OperationContext.Current.
-                    GetCallbackChannel<IHelloServiceCallback>().Progress(i);
-            }
         }
     }
 }
