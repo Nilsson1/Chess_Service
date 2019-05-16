@@ -18,12 +18,8 @@ namespace HelloService
         private void LogOut(IContextChannel channel)
         {
             System.Console.WriteLine("Connection closed!");
-            string sessionID = null;
             _clients.RemoveAt(number);
-            if (channel != null)
-            {
-                sessionID = channel.SessionId;
-            }
+
         }
 
         private void Channel_Faulted(object sender, EventArgs e)
